@@ -1,0 +1,145 @@
+{
+    "name": "Anti VS Code theme",
+    "type": "dark",
+    "colors": {
+      // Editor
+      "editor.background": "#0D0D0D",
+      "editor.foreground": "#FF66B2",
+      "editor.lineHighlightBackground": "#111111",
+      "editorCursor.foreground": "#00FF00",
+      "editor.selectionBackground": "#F8F8F8",
+      "editor.inactiveSelectionBackground": "#f8f8f886",
+      "editorIndentGuide.background1": "#0D0D0D",
+      "editorIndentGuide.activeBackground1": "#0D0D0D",
+      "editor.lineHighlightBorder": "#333333",
+      "editorWhitespace.foreground": "#666666",
+      "editorBracketMatch.background": "#FF00FF",
+      "editorBracketMatch.border": "#00FFFF",
+      "editorError.foreground": "#FFFFFF",
+      "editorWarning.foreground": "#FF0000",
+      "editorInfo.foreground": "#00FF00",
+  
+      // Terminal
+      "terminal.background": "#FFFFFF",
+      "terminal.foreground": "#000000",
+  
+      // Activity Bar
+      "activityBar.background": "#00FFFF",
+      "activityBar.foreground": "#FF00FF",
+      "activityBar.inactiveForeground": "#FF69B4",
+      "activityBarBadge.background": "#FF0000",
+      "activityBarBadge.foreground": "#FFFFFF",
+  
+      // Side Bar
+      "sideBar.background": "#1A1A1A",
+      "sideBar.foreground": "#FF66B2",
+      "sideBarTitle.foreground": "#FF0000",
+      "sideBarSectionHeader.background": "#000000",
+      "sideBarSectionHeader.foreground": "#00FF00",
+  
+      // Tabs
+      "tab.activeBackground": "#000000",
+      "tab.inactiveBackground": "#1A1A1A",
+      "tab.activeForeground": "#FF00FF",
+      "tab.inactiveForeground": "#555555",
+      "tab.hoverBackground": "#FF0000",
+      "tab.unfocusedActiveForeground": "#CCCCCC",
+      "tab.border": "#FF00FF",
+  
+      // Title Bar
+      "titleBar.activeBackground": "#FF00FF",
+      "titleBar.activeForeground": "#00FF00",
+      "titleBar.inactiveBackground": "#330033",
+      "titleBar.inactiveForeground": "#CCCCCC",
+  
+      // Status Bar
+      "statusBar.background": "#00FF00",
+      "statusBar.foreground": "#000000",
+      "statusBar.debuggingBackground": "#FF0000",
+      "statusBar.debuggingForeground": "#FFFFFF",
+  
+      // Scrollbar
+      "scrollbarSlider.background": "#FF00FF55",
+      "scrollbarSlider.hoverBackground": "#FF00FFAA",
+      "scrollbarSlider.activeBackground": "#FF00FF",
+  
+      // Notifications
+      "notifications.background": "#1A1A1A",
+      "notifications.foreground": "#FF66B2",
+      
+      // Misc
+      "panel.background": "#1A1A1A",
+      "panel.border": "#FF66B2",
+      "badge.background": "#FF00FF",
+      "badge.foreground": "#000000",
+      "dropdown.background": "#0D0D0D",
+      "dropdown.foreground": "#FF66B2"
+    },
+    "tokenColors": [
+      {
+        "scope": ["comment"],
+        "settings": {
+          "foreground": "#FFFF00",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["keyword"],
+        "settings": {
+          "foreground": "#6B4226",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": ["variable", "variable.parameter", "meta.definition.variable"],
+        "settings": {
+          "foreground": "#FF66B2"
+        }
+      },
+      {
+        "scope": ["string", "constant.other.symbol"],
+        "settings": {
+          "foreground": "#FF0000"
+        }
+      },
+      {
+        "scope": ["support.function", "entity.name.function"],
+        "settings": {
+          "foreground": "#39FF14"
+        }
+      },
+      {
+        "scope": ["invalid", "invalid.deprecated"],
+        "settings": {
+          "foreground": "#00FF00"
+        }
+      },
+      {
+        "scope": ["constant.numeric", "number"],
+        "settings": {
+          "foreground": "#FF9900"
+        }
+      },
+      {
+        "scope": ["storage.type", "storage.modifier"],
+        "settings": {
+          "foreground": "#00FFFF"
+        }
+      },
+      {
+        "scope": ["entity.name.tag", "meta.tag"],
+        "settings": {
+          "foreground": "#FF69B4"
+        }
+      }
+    ],
+    "semanticTokenColors": {
+      "variable": "#FF66B2",
+      "parameter": "#FF66B2",
+      "function": "#39FF14",
+      "string": "#FF0000",
+      "comment": "#FFFF00",
+      "keyword": "#6B4226"
+    }
+  }
+  

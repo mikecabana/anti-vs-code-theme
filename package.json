@@ -1,0 +1,37 @@
+{
+    "name": "anti-vs-code-theme",
+    "displayName": "Anti VS Code theme",
+    "description": "A VS Code theme for the anti-developer. It embodies pure web dev chaos — ironic, irritating, and aesthetically catastrophic.",
+    "version": "1.0.0",
+    "publisher": "mikecabana",
+    "license": "MIT",
+    "repository": {
+        "url": "https://github.com/mikecabana/anti-vs-code-theme"
+    },
+    "engines": {
+        "vscode": "^1.98.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Anti VS Code theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Anti VS Code-color-theme.json"
+            }
+        ],
+        "configurationDefaults": {
+            "[Anti VS Code theme]": {
+                "editor.fontFamily": "Comic Sans MS, Papyrus, Wingdings",
+                "editor.fontSize": 15,
+                "editor.lineHeight": 20,
+                "editor.cursorBlinking": "phase",
+                "editor.cursorStyle": "block-outline",
+                "editor.letterSpacing": 1.5,
+                "editor.minimap.enabled": false
+            }
+        }
+    }
+}
